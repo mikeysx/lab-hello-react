@@ -1,0 +1,110 @@
+.App {
+  /* text-align: center; */
+  margin: 1rem;
+}
+
+h1{
+  font-size: 08rem;
+  color: white;
+  text-align: left;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-items: flex-start;
+  margin-left: 2rem;
+}
+
+h3{
+  font-size: 02rem;
+  color: white;
+  text-align: left;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-items: flex-start;
+  margin-left: -42rem;
+  margin-top: 25rem;
+}
+
+h4{
+  font-size: 1.3rem;
+}
+
+.button {
+  margin-top: 10rem;
+  text-align: left;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-items: flex-start;
+  padding: 1rem;
+  color: rgb(78, 166, 243);
+  border-color: rgb(0, 0, 0);
+  background-color: aliceblue;
+  border: 2rem rgb(0, 0, 0);
+  border-radius: 1rem;
+}
+
+.App-logo {
+  height: 5vmin;
+  margin-left: 5rem;
+  margin-top: 1rem;
+  margin-bottom: 0.7rem;
+  pointer-events: none;
+}
+.App-logo2 {
+  flex-direction: column;
+  align-items:flex-end;
+  justify-content:flex-end;
+  height: 2vmin;
+  margin-top: 1.5rem;
+  margin-left: 70%;
+  pointer-events: none;
+}
+
+.block{ 
+  background:#23273e; 
+  height:45rem; 
+  display:flex; 
+  margin-left:auto; 
+  margin-right:auto; 
+  margin-top:0px;  
+} 
+
+.boxes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: stretch;
+    margin: 1rem 0.5rem;
+}
+
+.boxes div{
+  margin: 1rem;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 1vh;
+  display: flex;
+
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
